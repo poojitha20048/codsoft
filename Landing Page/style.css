@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Top Bar Styles */
+.top-bar {
+  background: #7a2ed2;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.request-button {
+  background: #fff;
+  color: #030e07;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #140707;
+}
+.buy-button {
+  background: #ff6600;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+/* Hero Styles */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #f8f9fa;
+}
+.cta-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  background: #080808d6;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cta-button.alt {
+  background: #007BFF;
+}
+/* Feature Styles */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #ffe6cc;
+}
+.feature-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+/* About Styles */
+.about {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+.about-image img {
+  max-width: 100%;
+}
+/* Services Styles */
+.services {
+  text-align: center;
+  padding: 40px 20px;
+}
+.service-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
